@@ -1,32 +1,20 @@
 {
-  "name": "gentry",
+  "name": "boildown",
   "description": "make generators",
   "version": "0.0.4",
-  "homepage": "http://github.com/wearefractal/gentry",
-  "repository": "git://github.com/wearefractal/gentry.git",
-  "author": "Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
-  "main": "./index.js",
   "dependencies": {
     "async": "^1.5.0",
-    "boba": "gentryjs/boba#refactor-js",
+    "boba": "github:gentryjs/boba#refactor-js",
     "lodash": "^3.10.1"
-  },
-  "devDependencies": {
-    "mocha": "^2.3.3",
-    "rimraf": "^2.4.3",
-    "should": "^7.1.1"
-  },
-  "scripts": {
-    "pretest": "standard",
-    "test": "mocha --compilers coffee:coffee-script/register"
   },
   "engines": {
     "node": ">= 4"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://github.com/wearefractal/gentry/raw/master/LICENSE"
-    }
-  ]
+  "homepage": "http://github.com/boildown/boildown",
+  "license": "MIT",
+  "main": "./index.js",
+  "repository": "git://github.com/boildown/boildown.git",
+  "scripts": {
+    "pretest": "standard"
+  }
 }
